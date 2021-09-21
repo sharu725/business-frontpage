@@ -1,7 +1,7 @@
 title: Business Frontpage
 description: A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header.
 
-baseurl: /business-frontpage
+#baseurl: /business-frontpage
 color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
 
 sass:
