@@ -44,7 +44,9 @@
           
           //https://preke.blob.core.windows.net/2021/20211107-final.mp4
           var base = "https://preke.blob.core.windows.net"
-          alert("downlooad")
+          var parts = target.id.split("-");
+          var filename = target.id.replaceAll("-","") + "-final.mp4";
+          alert(base + "/" + parts[0] + "/" + filename);
         }
       }
     });
