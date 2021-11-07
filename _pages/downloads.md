@@ -15,7 +15,7 @@ Hier kan jy ons vorige opnames aflaai en saam jou neem:
       <div class="card_container">
         <h4><b>{{ item.title }}</b></h4> 
         <p>{{ item.description }}</p> 
-        <a class="btn btn-primary btn-sm" href="{{ item.ïd }}">Download</a>
+        <a class="btn btn-primary btn-sm" href="{{ item.id }}">Download</a>
       </div>
     </div>
   </div> 
