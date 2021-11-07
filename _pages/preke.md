@@ -3,7 +3,7 @@ layout: default
 permalink: /preke/
 ---
 
-## Ons Youtube Kanaal
+## Ons YouTube Kanaal
 Teken in op ons YouTube kanaal om toegang te kry na die preke soos hulle beskikbaar gestel word: 
 <div class="g-ytsubscribe" data-channelid="UC0ZP4XfiYIW-CgGgnnmV-2Q" data-layout="default" data-count="hidden"></div>
 <br>
