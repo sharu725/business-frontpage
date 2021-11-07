@@ -47,8 +47,7 @@
           var filename = target.id.replaceAll("-","") + "-final.mp4";  
           //document.getElementById('download_iframe').src = base + "/" + parts[0] + "/" + filename;
           
-          var element = document.createElement('a');
-          element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+          var element = document.createElement('a'); 
           element.setAttribute('download', base + "/" + parts[0] + "/" + filename);
           element.style.display = 'none';
           document.body.appendChild(element);
