@@ -47,7 +47,13 @@
           var filename = target.id.replaceAll("-","") + "-final.mp4";  
           //document.getElementById('download_iframe').src = base + "/" + parts[0] + "/" + filename;
           
-          target.attr('download', '').attr('target', '_blank'); 
+          var element = document.createElement('a');
+          element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+          element.setAttribute('download', base + "/" + parts[0] + "/" + filename);
+          element.style.display = 'none';
+          document.body.appendChild(element);
+          element.click();
+          document.body.removeChild(element);
         }
       }
     });
