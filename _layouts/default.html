@@ -37,10 +37,11 @@
   <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script>
-    $(document).delegate("div", "click", function() {
-        if($(this).hasClass("download_card")){
-          window.location = $(this).find("a").attr("href");
-        }
+    document.addEventListener('click', function (e) {
+      var target = e.target;
+      if (target.tagName && target.tagName.toLowerCase() == "a") {
+        alert(target.id);
+      }
     });
   </script>
 </body>
