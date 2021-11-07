@@ -7,8 +7,7 @@ permalink: /downloads/
 
 Hier kan jy ons vorige opnames aflaai en saam jou neem:
 <br>
-<br>
-<iframe id="download_iframe" style="display:none;"></iframe>
+<br> 
 {% for item in site.data.preke %}
   <div class="row">
     <div class="col-md-12 mb-5">
@@ -16,7 +15,7 @@ Hier kan jy ons vorige opnames aflaai en saam jou neem:
         <div class="card_container">
           <h4><b>{{ item.title }}</b></h4> 
           <p>{{ item.description }}</p> 
-          <a class="btn btn-primary btn-sm download_link" href="#" id="{{ item.date }}">Download</a>
+          <a class="btn btn-primary btn-sm download_link" href="https://preke.blob.core.windows.net/2021/20211107-final.mp4" id="{{ item.date }}">Download</a>
         </div>
       </div>
     </div> 
