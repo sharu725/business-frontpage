@@ -11,7 +11,7 @@ Hier kan jy ons vorige opnames aflaai en saam jou neem:
   <div class="container">
     <h4><b>7 November 2021</b></h4> 
     <p>Short description here for the video... Short description here for the video... Short description here for the video... Short description here for the video... Short description here for the video... Short description here for the video...</p> 
-    <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
+    <a class="btn btn-primary btn-sm" href="#">Call to Action &raquo;</a>
   </div>
 </div>
 
@@ -19,7 +19,7 @@ Hier kan jy ons vorige opnames aflaai en saam jou neem:
   <div class="container">
     <h4><b>7 November 2021</b></h4> 
     <p>Short description here for the video...</p> 
-    <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
+    <a class="btn btn-primary btn-sm" href="#">Call to Action &raquo;</a>
   </div>
 </div>
 
@@ -27,6 +27,6 @@ Hier kan jy ons vorige opnames aflaai en saam jou neem:
   <div class="container">
     <h4><b>7 November 2021</b></h4> 
     <p>Short description here for the video...</p> 
-    <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
+    <a class="btn btn-primary btn-sm" href="#">Call to Action &raquo;</a>
   </div>
 </div>
