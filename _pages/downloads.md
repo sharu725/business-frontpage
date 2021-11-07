@@ -8,16 +8,16 @@ permalink: /downloads/
 Hier kan jy ons vorige opnames aflaai en saam jou neem:
 <br>
 <br>
-<div class="row">
 {% for item in site.data.preke %}
-  <div class="col-md-4 mb-5">
-    <div class="card"> 
-      <div class="card_container">
-        <h4><b>{{ item.title }}</b></h4> 
-        <p>{{ item.description }}</p> 
-        <a class="btn btn-primary btn-sm" href="{{ item.id }}">Download</a>
+  <div class="row">
+    <div class="col-md-4 mb-5">
+      <div class="card"> 
+        <div class="card_container">
+          <h4><b>{{ item.title }}</b></h4> 
+          <p>{{ item.description }}</p> 
+          <a class="btn btn-primary btn-sm" href="#">Download {{ item.id }} </a>
+        </div>
       </div>
-    </div>
-  </div> 
+    </div> 
+  </div>
 {% endfor %}
-</div>
