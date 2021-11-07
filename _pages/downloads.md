@@ -14,3 +14,19 @@ Hier kan jy ons vorige opnames aflaai en saam jou neem:
     <button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>
   </div>
 </div>
+
+<div class="card"> 
+  <div class="container">
+    <h4><b>7 November 2021</b></h4> 
+    <p>Short description here for the video...</p> 
+    <button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>
+  </div>
+</div>
+
+<div class="card"> 
+  <div class="container">
+    <h4><b>7 November 2021</b></h4> 
+    <p>Short description here for the video...</p> 
+    <button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>
+  </div>
+</div>
