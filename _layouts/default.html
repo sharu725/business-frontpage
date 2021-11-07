@@ -21,7 +21,9 @@
   <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script>
     $(document).delegate("div", "click", function() {
-       window.location = $(this).find("a").attr("href");
+        if($(this).hasClass("download_card")){
+          window.location = $(this).find("a").attr("href");
+        }
     });
   </script>
 </body>
