@@ -10,7 +10,12 @@ Luister gerus na vorige preke op ons Youtube kanaal:
   <div class="col-md-6 mb-5">
     <h2>2021</h2>
     <hr />
-    <iframe src="//www.youtube.com/embed/videoseries?list=PL3rAB5-SazVfuzVCDkDKmJ6kkAPVl_f2X&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+    <div>
+      <div style="position:relative;padding-top:56.25%;">
+        <iframe src="//www.youtube.com/embed/videoseries?list=PL3rAB5-SazVfuzVCDkDKmJ6kkAPVl_f2X&wmode=opaque" frameborder="0" allowfullscreen
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+    </div>   
   </div> 
   <div class="col-md-6 mb-5">
     <h2>2020</h2>
