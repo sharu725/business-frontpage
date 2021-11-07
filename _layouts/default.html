@@ -39,7 +39,7 @@
   <script>
     document.addEventListener('click', function (e) {
       var target = e.target;
-      if (target.tagName && target.tagName.toLowerCase() == "a" && target.hasClass("")) {
+      if (target.tagName && target.tagName.toLowerCase() == "a") {
         if($("#" + target.id).hasClass("download_link")){
           alert("downlooad")
         }
