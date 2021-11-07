@@ -45,8 +45,9 @@
           var base = "https://preke.blob.core.windows.net"
           var parts = target.id.split("-");
           var filename = target.id.replaceAll("-","") + "-final.mp4";  
-          document.getElementById('download_iframe').src = base + "/" + parts[0] + "/" + filename;
+          //document.getElementById('download_iframe').src = base + "/" + parts[0] + "/" + filename;
           
+          target.attr('download', '').attr('target', '_blank'); 
         }
       }
     });
