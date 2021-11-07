@@ -8,6 +8,6 @@ permalink: /downloads/
 Hier kan jy ons vorige opnames aflaai en saam jou neem:
 
 <div>
-<a>07 November 2021</a>
-<p>This is the short text to describe the video</p>
+   <h3>A bunch of</h3>
+   <a href="http://google.com">stuff in here</a>
 </div>
