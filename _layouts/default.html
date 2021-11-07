@@ -5,6 +5,35 @@
 <html lang="en">
 {% include head.html %}
 
+  <style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  padding-bottom: 20px;
+  position: relative;
+} 
+
+.container.a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px; //these two lines are to hide my actual link text.
+  overflow: hidden; //these two lines are to hide my actual link text.
+}
+
+</style>
+  
 <body>
   {% include navigation.html %} {% include header.html %}
   <!-- Page Content -->
