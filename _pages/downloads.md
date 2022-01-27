@@ -15,7 +15,7 @@ Hier kan jy ons vorige opnames aflaai en saam jou neem:
         <div class="card_container">
           <h4><b>{{ item.title }}</b></h4> 
           <p>{{ item.description }}</p> 
-          <a class="btn btn-primary btn-sm download_link" href="https://preke.blob.core.windows.net/2021/20211107-final.mp4" id="{{ item.date }}" download>Download</a>
+          <a class="btn btn-primary btn-sm download_link" href="https://anonfiles.com/d8q1d8E0x5/20220123-final_mp4" id="{{ item.date }}" download>Download</a>
         </div>
       </div>
     </div> 
