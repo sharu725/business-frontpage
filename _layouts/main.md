@@ -1,0 +1,55 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+  <style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card_container {
+  padding: 16px 16px 16px 16px;
+  position: relative;
+} 
+
+</style>
+  
+<body>
+  {% include navigation.html %}
+  <!-- Page Content -->
+  <div class="container mb-5">
+    {{ content }}
+  </div>
+  <!-- /.container -->
+  {% include footer.html %}
+
+  <!-- Bootstrap core JavaScript --> 
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('click', function (e) {
+      var target = e.target;
+      if (target.tagName && target.tagName.toLowerCase() == "a") {
+        if($("#" + target.id).hasClass("download_link")){
+           
+          var base = "https://preke.blob.core.windows.net"
+          var parts = target.id.split("-");
+          var filename = target.id.replaceAll("-","") + "-final.mp4";  
+          //document.getElementById('download_iframe').src = base + "/" + parts[0] + "/" + filename; 
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
