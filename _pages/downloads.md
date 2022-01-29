@@ -15,7 +15,8 @@ Hier kan jy ons vorige opnames aflaai en saam jou neem:
         <div class="card_container">
           <h4><b>{{ item.title }}</b></h4> 
           <p>{{ item.description }}</p> 
-          <a class="btn btn-primary btn-sm download_link" href="https://anonfiles.com/d8q1d8E0x5/20220123-final_mp4" id="{{ item.date }}" download>Download</a>
+          <a type="button" id="download-url" class="btn btn-primary btn-block" href="https://cdn-142.anonfiles.com/f5v9w2E9xf/43f42d35-1643445953/20220130-final.mp4">                    <img src="/img/file/filetypes/mime/video_unknown.png?1597404212"> Download
+                    (708.72 MB)</a>
         </div>
       </div>
     </div> 
