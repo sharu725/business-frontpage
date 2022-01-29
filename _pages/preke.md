@@ -66,7 +66,8 @@ Teken in op ons YouTube kanaal om toegang te kry na die preke soos hulle beskikb
     <hr/>
     <div>
       <div style="position:relative;padding-top:56.25%;">
-        </br>
+        <iframe src="//www.youtube.com/embed/videoseries?list=PL3rAB5-SazVd5iFN46gvGyKt2Emfd7e6s&wmode=opaque" frameborder="0" allowfullscreen
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
       </div>
     </div> 
   </div>
