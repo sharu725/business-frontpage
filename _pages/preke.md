@@ -50,7 +50,8 @@ Teken in op ons YouTube kanaal om toegang te kry na die preke soos hulle beskikb
       </div>
     </div> 
   </div>
-  <div class="row">
+</div>
+<div class="row">
   <div class="col-md-6 mb-5">
     <h2>2018</h2>
     <hr />
@@ -62,14 +63,13 @@ Teken in op ons YouTube kanaal om toegang te kry na die preke soos hulle beskikb
     </div>   
   </div> 
   <div class="col-md-6 mb-5">
-    <h2>.</h2>
+    <h2></h2>
     <hr/>
     <div>
       <div style="position:relative;padding-top:56.25%;">
-        <iframe src="//www.youtube.com/embed/videoseries?list=PL3rAB5-SazVd5iFN46gvGyKt2Emfd7e6s&wmode=opaque" frameborder="0" allowfullscreen
-          style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+        
       </div>
     </div> 
   </div>
-</div> 
+</div>
 
