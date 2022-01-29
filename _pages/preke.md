@@ -6,11 +6,11 @@ permalink: /preke/
 ## Ons YouTube Kanaal
 Teken in op ons YouTube kanaal om toegang te kry na die preke soos hulle beskikbaar gestel word: 
 <div class="g-ytsubscribe" data-channelid="UC0ZP4XfiYIW-CgGgnnmV-2Q" data-layout="default" data-count="hidden"></div>
-
+</br>
 ## Vorige Preke
 Hier kan jy soek na spesifieke preke gebaseer op die text gedeelte en ander sleutelwoorde. All ons vorige preke is ook op ons YouTube kanaal beskikbaar:
-<div calss="g-ytsubscribe">Click here</div>
-
+<button>Ons Kanaal</button>
+</br>
 <br>
 <div class="row">
   <div class="col-md-6 mb-5">
