@@ -62,10 +62,11 @@ Teken in op ons YouTube kanaal om toegang te kry na die preke soos hulle beskikb
     </div>   
   </div> 
   <div class="col-md-6 mb-5">
-    <h2></h2>
-    <hr />
+    <h2>.</h2>
+    <hr/>
     <div>
       <div style="position:relative;padding-top:56.25%;">
+        </br>
       </div>
     </div> 
   </div>
